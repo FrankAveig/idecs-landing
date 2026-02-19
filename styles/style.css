@@ -369,7 +369,11 @@ body {
   transform: translateY(24px);
   will-change: opacity, transform;
 }
-
+ @media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: clamp(1.85rem, 7vw, 2.5rem);
+  }
+ }
 .hero__bottom {
   display: flex;
   align-items: flex-end;
