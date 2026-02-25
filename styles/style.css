@@ -1892,7 +1892,13 @@ body {
   border-radius: 12px;
   overflow-y: auto;
 }
-
+@media (max-width: 1500px) {
+  .contact__form-wrap {
+    aspect-ratio: 4 / 3.3;
+    
+ 
+  }
+}
 .contact__form {
   min-width: 0;
 }
